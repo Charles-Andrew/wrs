@@ -1,6 +1,12 @@
 <?php
 
 function CG(){
+    function numgen(){
+        $numbers = range(1, 5);
+        shuffle($numbers);
+        return $numbers;
+    }
+
     $tll = str_split("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 
     $x1 = random_int(1,9);
@@ -10,8 +16,13 @@ function CG(){
     $x5 = random_int(1,9);
 
     $tlc = [$x1,$x2,$x3,$x4,$x5];
+    $son = numgen();
     $rtlc = [];
+    foreach ($son as $val) {
+        $rtlc[] = $tlc[$val-1];
+    }
     
-    $code = strval($x1).strval($x2).strval($x3).strval($x4).strval($x5);
+    $code = 'S.A-'.implode('',$rtlc);
     return $code;
 }
+
