@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php session_start(); 
+include 'codeGen.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -130,7 +133,7 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <form id="contactForm">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -228,7 +231,7 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label class="form-label">Order ID:</label>
-                        <input type="text" class="form-control" value="i9123" readonly style="text-align:center; font-size: large; font-weight: bold;">
+                        <input type="text" class="form-control" value="<?php echo CG(); ?>" readonly style="text-align:center; font-size: large; font-weight: bold;">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Reciever's Name:</label>
