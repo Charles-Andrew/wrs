@@ -1,6 +1,8 @@
 <?php
 
-function CG(){
+function CG($path){
+    $pdo = new PDO('sqlite:'.$path);
+
     function numgen(){
         $numbers = range(1, 5);
         shuffle($numbers);
@@ -23,6 +25,13 @@ function CG(){
     }
     
     $code = 'S.A-'.implode('',$rtlc);
-    return $code;
+    $sql = "SELECT * FROM transactions WHERE tCode = '$code'";
+    $statement = $pdo -> query($sql);
+    $rows = $statement -> fetchAll(PDO::FETCH_ASSOC);
+    if (count($rows) != 0) {
+        CG($path);
+    }else{
+        return $code;
+    }
 }
 
