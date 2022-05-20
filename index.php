@@ -125,7 +125,7 @@
                         payment upon delivery. </p>
                 </div>
                 <div class="col-lg-4 me-auto">
-                    <p class="lead">For Gcash Transactions: <br>Name: Charles Andrew Barsubia<br>Number: 09307694071
+                    <p class="lead">For Gcash Transactions: <br>Name: Asnawie<br>Number: 09307621953
                         <br><br>Present the proof of Gcash Payment Transaction upon delivery.</p>
                 </div>
             </div>
@@ -150,10 +150,9 @@
             <!-- Contact Section Form-->
             <div class="row text-center">
                 <h2 class="my-2">Email</h2>
-                <h5 class="lead">@email.com</h5>
+                <h5 class="lead">pawtie12345@gmail.com</h5>
                 <h2 class="my-2">Phone</h2>
-                <h5 class="lead">091230123012 - Smart</h5>
-                <h5 class="lead">091230123012 - Globe</h5>
+                <h5 class="lead">09307621953 - Smart</h5>
                 <h2 class="my-3 text-uppercase">Or Reach Us at our social media pages.</h2>
             </div>
         </div>
@@ -166,9 +165,9 @@
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Location</h4>
                     <p class="lead mb-0">
-                        2215 John Daniel Drive
+                        Manongol Purok 1B
                         <br />
-                        Clark, MO 65243
+                        Kidapawan City
                     </p>
                 </div>
                 <!-- Footer Social Icons-->
